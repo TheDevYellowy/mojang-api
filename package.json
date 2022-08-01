@@ -1,0 +1,13 @@
+{
+  "name": "mojang-api",
+  "version": "0.0.1",
+  "description": "A simple api wrapper for mojangs api",
+  "main": "src/index.js",
+  "repository": "https://www.github.com/TheDevYellowy/mojang-api.git",
+  "author": "TheDevYellowy <yellowycorn6963@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
