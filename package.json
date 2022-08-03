@@ -1,5 +1,5 @@
 {
-  "name": "mojang-api",
+  "name": "mojangapi",
   "version": "0.0.1",
   "description": "A simple api wrapper for mojangs api",
   "main": "src/index.js",

@@ -67,10 +67,7 @@ class API {
             case 200:
                 return d.id;
             case 204:
-                return {
-                    name: null,
-                    id: null
-                };
+                return null
             case 400 || 429:
                 throw new Error(`${d.error}: ${d.errorMessage}`);
         }
