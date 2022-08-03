@@ -43,11 +43,11 @@ export abstract class API {
     public get securityQuestionsNeeded(): boolean | null;
     private get hasToken(): boolean;
 
-    public async usernameToUUID(username: string): string;
-    public async UUIDtoProfile(id: string): profile;
-    public async nameHistory(id: string): Array<history>;
-    public async getSecurityQuestions(): Arr3<getSecurityQuestions>;
-    public async sendSecurityQuestions(ans: Arr3<postSecurityQuestions>): void;
+    public usernameToUUID(username: string): string;
+    public UUIDtoProfile(id: string): profile;
+    public nameHistory(id: string): Array<history>;
+    public getSecurityQuestions(): Arr3<getSecurityQuestions>;
+    public sendSecurityQuestions(ans: Arr3<postSecurityQuestions>): void;
 
     private questionsNeeded(): boolean | null;
 }
